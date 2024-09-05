@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaivik Patel | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="toggle-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+        <div class="headline">
+            <h1>Hi, I'm Jaivik Patel</h1>
+            <p>A Passionate Web Developer</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="jaivik.jpg" alt="Your Photo">
+                </div>
+                <div class="about-text">
+                    <p>Welcome! I'm Jaivik Patel, a web developer with a passion for creating visually stunning and functional websites. With a strong background in computer science, I have honed my skills in front-end and back-end development, working on various projects that challenge and inspire me. Currently, I'm pursuing my final year in PARUL UNIVERSITY, specializing in COMPUTER SCIENCE. I have hands-on experience in Python development, team management, and photography, which I integrate into my web development projects.</p>
+                    <p>My journey into web development started with a deep fascination for how websites work behind the scenes, and over the years, I have developed a keen eye for design and functionality. Whether it's building responsive user interfaces or developing robust backend systems, I strive to deliver high-quality solutions that meet clients' needs.</p>
+                    <a href="jaivik_Resume.pdf" class="btn">Download My Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>Front-End Development</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%;">HTML, CSS, JavaScript, React</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Back-End Development</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%;">Python, Django, Node.js, Express</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Tools & Technologies</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">Git, GitHub, Docker, SQL, REST APIs</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Photography & Design</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;">Adobe Photoshop, Lightroom</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Front-End Developer</h3>
+                    <p>Designed a responsive e-commerce site for plant delivery with intuitive navigation, product listings, and a contact form. Implemented theme toggle and optimized for performance using HTML, CSS, and JavaScript.</p>
+                    <a href="Leaf-X_project.jpg" class="btn">View Project</a> 
+                   
+                </div>
+                <div class="project-item">
+                    <h3>Weather Application</h3>
+                    <p>Built a web page that fetches weather data from a weather API based on user's location or user inputted location. Display current weather conditions, temperature, and other relevant information.</p>
+                    <a href="Weather_project.jpg" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out to me via the contact form below or connect with me on social media.</p>
+            <form action="contact.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/jaivik-patel-26760a291/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/JP-Cipher" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jaivik Patel. All rights reserved.</p>
+        <a href="#about" class="btn">Back to Top</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
